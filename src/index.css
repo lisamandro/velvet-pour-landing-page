@@ -72,11 +72,11 @@ body {
         }
 
         p {
-            @apply font-modern-negra text-3xl -mb-2;
+            @apply font-modern-negra text-3xl -mb-2 ;
         }
 
         a {
-            @apply cursor-pointer text-nowrap md:text-base text-sm;
+            @apply cursor-pointer text-nowrap md:text-base text-sm font-semibold;
         }
 
         ul {
