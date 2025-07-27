@@ -1,12 +1,23 @@
-# React + Vite
+# Velvet Pour – Mocktail Landing Page
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A visually appealing and responsive landing page for a premium mocktail brand. Built using **React** and **Vite**, the project highlights sleek design and smooth user interactions.
+   <div>
+    <img src="https://img.shields.io/badge/-React-blue?style=for-the-badge&logo=react&logoColor=white" />
+    <img src="https://img.shields.io/badge/-GSAP-88CE02?style=for-the-badge&logo=greensock&logoColor=white" />
+    <img src="https://img.shields.io/badge/-Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+  </div>
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🌟 Features
 
-## Expanding the ESLint configuration
+- Clean, modern UI design
+- Responsive layout for all screen sizes
+- Image and video support (hero sections, background, etc.)
+- Fast development setup using Vite + React
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Tech
+
+- ⚛️ **React** – For component-based architecture
+- 🎨 **Tailwind CSS** – Utility-first styling
+- 🎞️ **GSAP** – Advanced animation handling
+- ⚡ **Vite** – Lightning-fast dev server and build tool
