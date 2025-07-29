@@ -275,7 +275,7 @@ body {
     }
 
     #menu {
-        @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-20 radial-gradient;
+        @apply relative w-full md:mt-40 mt-0 2xl:px-0 px-5 py-10 radial-gradient;
 
         #m-left-leaf {
             @apply object-contain absolute -bottom-20 left-0 md:w-fit w-1/3;
@@ -294,7 +294,7 @@ body {
         }
 
         .content {
-            @apply flex flex-col justify-between items-center container mx-auto relative;
+            @apply flex flex-col items-center container mx-auto relative  ;
 
             .arrows {
                 @apply flex items-center justify-between w-full absolute;
@@ -324,7 +324,7 @@ body {
                 @apply space-y-4 lg:translate-y-20;
 
                 #title {
-                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-40;
+                    @apply font-modern-negra md:text-6xl text-3xl text-yellow max-w-full break-words;
                 }
             }
 
@@ -340,6 +340,9 @@ body {
                 }
             }
         }
+        overflow-x: hidden;
+        overflow-y: hidden; /* Prevent animation-caused overflow */
+        position: relative;
     }
 
     #contact {
