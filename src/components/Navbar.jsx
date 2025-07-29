@@ -12,8 +12,8 @@ const Navbar = () => {
         });
         //This section introduces a blurry nav bar on the top while scrolling
         navTween.fromTo('nav', { backgroundColor: 'transparent'},{
-                backgroundColor: '#00000050',
-                backgroundFilter: 'blur(10px)',
+                backgroundColor: '#00000070',
+                backgroundFilter: 'blur(20px)',
                 duration: 1,
                 ease: 'power1.inOut',
         });
